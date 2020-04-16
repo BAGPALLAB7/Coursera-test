@@ -10,9 +10,9 @@ for (var i = 0; i < names.length; i++) {
 
   
   if (firstLetter === 'j') {
-    SpeakGoodBye.speak(names[i]);
+    byeSpeaker.speak(names[i]);
   } else {
-    SpeakHello.speak1(names[i]);
+    helloSpeaker.speak(names[i]);
   }
 }
 
